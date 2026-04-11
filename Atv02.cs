@@ -1,3 +1,23 @@
+/*
+Em uma cantina escolar, o atendente registra o valor das compras realizadas pelos alunos.
+O sistema:
+
+- lê o valor de uma compra;
+- soma esse valor ao total arrecadado;
+- pergunta se deseja registrar outra compra;
+- repete o processo até o usuário responder que não quer continuar.
+
+Ao final, o programa mostra:
+- a quantidade de compras registradas;
+- o valor total arrecadado.
+
+===========DESAFIO===========
+O programa da cantina já registra o valor das compras, soma o total arrecadado e 
+conta quantas compras foram realizadas. Modifique o código para que ele também exiba, 
+ao final, o valor médio das compras registradas, mantendo o uso do do/while.
+No cálculo da média, devem ser considerados apenas os valores válidos registrados.
+
+*/
 public static class Atv02
 {
     public static void Executar()

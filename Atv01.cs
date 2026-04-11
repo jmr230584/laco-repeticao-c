@@ -52,17 +52,17 @@ public static class Atv01
             if (opcao == 1)
             {
                 resultado = numero1 + numero2;
-                Console.WriteLine("Resultado da soma: " + resultado);
+                Console.WriteLine($"Resultado da soma: {resultado}");
             }
             else if (opcao == 2)
             {
                 resultado = numero1 - numero2;
-                Console.WriteLine("Resultado da subtração: " + resultado);
+                Console.WriteLine($"Resultado da subtração: {resultado}");
             }
             else if (opcao == 3)
             {
                 resultado = numero1 * numero2;
-                Console.WriteLine("Resultado da multiplicação: " + resultado);
+                Console.WriteLine($"Resultado da multiplicação: {resultado}");
             }
             else if (opcao == 4)
             {
@@ -73,7 +73,7 @@ public static class Atv01
                 else
                 {
                     resultado = numero1 / numero2;
-                    Console.WriteLine("Resultado da divisão: " + resultado);
+                    Console.WriteLine($"Resultado da divisão: {resultado}");
                 }
             }
             else
