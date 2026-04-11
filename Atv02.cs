@@ -48,8 +48,8 @@ public static class Atv02
 
         } while (continuar == "s" || continuar == "S");
 
-        Console.WriteLine("Quantidade de compras registradas: " + quantidadeCompras);
-        Console.WriteLine("Total arrecadado: R$ " + totalArrecadado);
+        Console.WriteLine($"Quantidade de compras registradas: {quantidadeCompras}");
+        Console.WriteLine($"Total arrecadado: R$ {totalArrecadado}");
     }
 }
 
