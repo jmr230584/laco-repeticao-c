@@ -12,33 +12,33 @@ Regras da atividade
 - após cada tentativa de cadastro, o programa deve perguntar se o operador deseja continuar;
 - ao final, exibir a quantidade de veículos registrados com sucesso.
 
-Observação: Vestigios de uso de IA, atividade zerada, 
-ou código copiado de terceiros sem a devida citação, serão penalizados.
-
 */
-public static class Atv03
+public static class Atv03R
 {
     public static void Executar()
     {
         string placa;
-        string opcao;
-        int cont = 0;
+        string continuar;
+        int quantidadeVeiculos = 0;
 
-        Console.WriteLine("Você deseja iniciar a contagem: ");
-        opcao = Console.ReadLine()!;
+        Console.Write("Deseja registrar um veículo? (s/n): ");
+        continuar = Console.ReadLine()!;
 
-        while(opcao == "s") //opcao != n
+        while (continuar == "s" || continuar == "S")
         {
-            Console.WriteLine("Placa");
+            Console.Write("Digite a placa do veículo: ");
             placa = Console.ReadLine()!;
 
-            cont = cont + 1; // cont++
+            quantidadeVeiculos = quantidadeVeiculos + 1;
 
-            Console.WriteLine ("Deseja continuar placa");
-            opcao = Console.ReadLine()!;            
+            Console.WriteLine("Veículo registrado com sucesso.");
+            Console.WriteLine();
+
+            Console.Write("Deseja registrar outro veículo? (s/n): ");
+            continuar = Console.ReadLine()!;
+            Console.WriteLine();
         }
 
-        Console.WriteLine("Fim de progr");
-        
+        Console.WriteLine($"Quantidade de veículos registrados: {quantidadeVeiculos}");
     }
 }

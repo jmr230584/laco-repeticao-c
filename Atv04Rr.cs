@@ -14,12 +14,12 @@ Observação: Vestigios de uso de IA, atividade zerada,
 ou código copiado de terceiros sem a devida citação, serão penalizados.
 
 */
-public static class Atv04
+public static class Atv04R
 {
     public static void Executar()
     {
         int numero;
-        int contador = 0;
+        int contador = 1;
 
         Console.Write("Digite o valor do produto: ");
         numero = int.Parse(Console.ReadLine()!);
@@ -29,5 +29,6 @@ public static class Atv04
             Console.WriteLine($"{numero} x {contador} = {numero * contador}");
             contador++;
         }
+
     }
 }

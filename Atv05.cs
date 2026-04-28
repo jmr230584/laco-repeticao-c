@@ -9,3 +9,10 @@ Regras:
 - apresentar cada operação de forma organizada
 - mostrar a tabuada completa do número informado pelo usuário
 */
+public static class Atv05
+{
+    public static void Executar()
+    {
+
+    }
+}
